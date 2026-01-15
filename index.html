@@ -3,19 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikum Tech - Future of Bots</title>
+    <title>Vikum Tech - Bot Deployer</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
         body {
-            /* පින්තූරයේ තියෙන වගේ ලස්සන තැඹිලි පාට පසුබිම */
-            background: linear-gradient(180deg, #ff7e5f, #feb47b);
+            background: linear-gradient(180deg, #ff7e5f, #feb47b); /* Orange Theme */
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -24,69 +17,40 @@
             color: white;
             padding: 20px;
         }
-
-        .container {
-            max-width: 500px;
-            width: 100%;
-        }
-
-        h1 {
-            font-size: 2.8rem;
-            line-height: 1.2;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        p {
-            font-size: 1.1rem;
-            margin-bottom: 40px;
-            opacity: 0.9;
-            line-height: 1.6;
-        }
-
-        .btn-container {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
+        .container { max-width: 500px; width: 100%; }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; font-weight: 700; }
+        p { font-size: 1rem; margin-bottom: 30px; opacity: 0.9; }
+        .btn-container { display: flex; flex-direction: column; gap: 12px; }
         .btn {
             padding: 15px;
-            border-radius: 50px; /* පින්තූරයේ වගේ වටකුරු බටන් */
+            border-radius: 50px; /* Rounded buttons */
             text-decoration: none;
             font-weight: 600;
-            font-size: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: 0.3s;
-            border: 2px solid transparent;
         }
-
-        /* විවිධ බටන් වල පාටවල් */
-        .btn-primary { background: #ffcc33; color: #333; }
-        .btn-secondary { background: white; color: #ff7e5f; }
-        .btn-outline { border-color: rgba(255,255,255,0.5); color: white; background: rgba(255,255,255,0.1); }
-        .btn-red { background: #e63946; color: white; }
-
-        .btn:hover {
-            transform: scale(1.03);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
+        .btn-yellow { background: #ffcc33; color: #333; }
+        .btn-white { background: white; color: #ff7e5f; }
+        .btn-dark { background: rgba(0,0,0,0.2); color: white; border: 1px solid rgba(255,255,255,0.3); }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>The Future of Vikum Tech Bots & APIs</h1>
-        <p>Build, connect, and scale your services in Sri Lanka with our robust and modern platform.</p>
+        <h1>Vikum Tech Bot Center 🤖</h1>
+        <p>ඔබගේ WhatsApp Bot පහසුවෙන් මෙතැනින් සාදාගන්න.</p>
 
         <div class="btn-container">
-            <a href="#" class="btn btn-primary">✓ Get Started Now!</a>
-            <a href="#" class="btn btn-secondary">View My Projects</a>
-            <a href="https://wa.me/yournumber" class="btn btn-outline">Chat on WhatsApp</a>
-            <a href="#" class="btn btn-outline">Deploy Your Bot</a>
-            <a href="#" class="btn btn-red">Go to Dashboard</a>
+            <a href="https://pairing-site-link.com" class="btn btn-yellow">🔑 Get Pairing Code</a>
+            
+            <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/vikumbhagya/MEGA-MD" class="btn btn-white">🚀 Deploy on Koyeb</a>
+            
+            <a href="https://wa.me/94742200933" class="btn btn-dark">💬 Contact Owner</a>
+            
+            <a href="https://github.com/vikumbhagya" class="btn btn-dark">📂 My Bot Projects</a>
         </div>
     </div>
 
